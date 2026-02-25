@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/file-saver": "^2.0.7",
+    "@vercel/analytics": "^1.6.1",
     "file-saver": "^2.0.5",
     "jsqr": "^1.4.0",
     "mammoth": "^1.11.0",
