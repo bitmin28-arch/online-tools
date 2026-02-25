@@ -5,7 +5,7 @@ import type { MetadataRoute } from "next";
  * 列出所有工具页面供搜索引擎索引
  */
 
-const BASE_URL = "https://turnturnnturn.com";
+const BASE_URL = "https://online-tools-psi.vercel.app";
 
 const TOOL_SLUGS = [
     "image-compressor",
