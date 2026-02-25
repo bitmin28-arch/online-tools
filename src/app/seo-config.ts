@@ -5,7 +5,7 @@
 import type { Metadata } from "next";
 
 const SITE_NAME = "TurnTurnTurn";
-const BASE_URL = "https://online-tools-psi.vercel.app";
+const BASE_URL = "https://turnturnnturn.com";
 
 export const toolMetadata: Record<string, Metadata> = {
     "image-compressor": {
