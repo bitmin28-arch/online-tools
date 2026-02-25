@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ThemeToggle from "./components/theme-toggle";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: {
@@ -76,6 +77,7 @@ export default function RootLayout({
             <p>© 2025 TurnTurnTurn. All tools run locally in your browser — your files never leave your device.</p>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
