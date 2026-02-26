@@ -9,9 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
     "@types/file-saver": "^2.0.7",
     "file-saver": "^2.0.5",
     "jsqr": "^1.4.0",
+    "lucide-react": "^0.575.0",
     "mammoth": "^1.11.0",
     "next": "16.1.6",
     "pdf-lib": "^1.17.1",
