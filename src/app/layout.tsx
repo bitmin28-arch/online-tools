@@ -74,15 +74,13 @@ export default function RootLayout({
                 </li>
               </ul>
             </nav>
+            <FeedbackDialog />
             <ThemeToggle />
           </div>
         </header>
         <main>{children}</main>
         <footer className="footer">
           <div className="container">
-            <div className="footer-links" style={{ display: 'flex', justifyContent: 'center', marginBottom: '1rem' }}>
-              <FeedbackDialog />
-            </div>
             <p>© 2025 TurnTurnTurn. All tools run locally in your browser — your files never leave your device.</p>
           </div>
         </footer>
