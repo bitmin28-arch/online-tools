@@ -10,6 +10,6 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: "*",
             allow: "/",
         },
-        sitemap: "https://online-tools-psi.vercel.app/sitemap.xml",
+        sitemap: "https://luyxtools.com/sitemap.xml",
     };
 }
