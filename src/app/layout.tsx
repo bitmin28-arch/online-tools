@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ThemeToggle from "./components/theme-toggle";
-
+import { FeedbackDialog } from "./components/feedback-dialog";
 export const metadata: Metadata = {
   title: {
     default: "TurnTurnTurn — Free Online Tools",
@@ -80,6 +80,9 @@ export default function RootLayout({
         <main>{children}</main>
         <footer className="footer">
           <div className="container">
+            <div className="footer-links" style={{ display: 'flex', justifyContent: 'center', marginBottom: '1rem' }}>
+              <FeedbackDialog />
+            </div>
             <p>© 2025 TurnTurnTurn. All tools run locally in your browser — your files never leave your device.</p>
           </div>
         </footer>
